@@ -13,7 +13,7 @@ changeNames <- function(data){
   names(data)[names(data)=="Clickconversionrate"] <- "CVR"
   names(data)[names(data)=="Convertedclicks"] <- "Conversions"
   names(data)[names(data)=="Totalconv.value"] <- "ConversionValue"
-  names(data)[names(data)=="Cost/convertedclick"] <- "CPO"
+  names(data)[names(data)=="Cost/convertedclick"] <- "CPA"
   names(data)[names(data)=="Value/convertedclick"] <- "ValuePerConversion"
   names(data)[names(data)=="Value/conv."] <- "ValuePerConversion"
   return(data)
